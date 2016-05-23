@@ -15,3 +15,9 @@ footer {
   color: white;
   text-align: center;
 }
+
+p {
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+}
