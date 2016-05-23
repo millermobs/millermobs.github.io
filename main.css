@@ -3,3 +3,9 @@ color: black;
 background-color: white;
 font-size: 30px;
 }
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
