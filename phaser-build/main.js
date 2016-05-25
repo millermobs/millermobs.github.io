@@ -1,3 +1,4 @@
+
 var mainState = {
   preload: function() {
     game.load.image('paddle', 'assets/paddle.png');
@@ -24,7 +25,7 @@ var mainState = {
         brick.body.immovable = true;
         this.bricks.add(brick);
       }
-    }
+  }
     this.ball = game.add.sprite(200, 300, 'ball');
     this.ball.body.velocity.x = 200;
     this.ball.body.velocity.y = 200;
