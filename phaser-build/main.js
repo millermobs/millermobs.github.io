@@ -45,12 +45,12 @@ var mainState = {
       game.state.start('main');
   },
   
-  //hit: function(ball, brick) {
-  //  brick.kill();
-  //},
+  hit: function(ball, brick) {
+    brick.kill();
+  },
   
 };
 
 var game = new Phaser.Game(400, 450);
-game.state.add(main, mainState);
+game.state.add('main', mainState);
 game.state.start('main');
