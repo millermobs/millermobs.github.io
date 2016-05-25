@@ -21,7 +21,8 @@ var mainState = {
     
     for (var i = 0; i < 5; i++) {
       for (var j = 0; j < 5; j++) {
-        var brick = game.add.sprite(55+i*660, 55+j*35, 'brick');
+        
+        var brick = game.add.sprite(55+i*60, 55+j*35, 'brick');
         brick.body.immovable = true;
         this.bricks.add(brick);
       }
