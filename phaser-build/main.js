@@ -7,6 +7,13 @@ var mainState = {
   },
   
   create: function() {
+    if (game.device.desktop == false) {
+      game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+      game.scale.setMinMax(game.width/2, game.height/2, game.width, game.height);
+    }
+    game.scale.pageAlignHorizontally = true;
+    game.scale.pageAlignVertically = true;
+    
     game.stage.backgroundColor = '#3598db';
     game.physics.startSystem(Phaser.Physics.ARCADE);
     game.world.enableBody = true;
