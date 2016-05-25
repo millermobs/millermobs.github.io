@@ -25,7 +25,7 @@ var mainState = {
         brick.body.immovable = true;
         this.bricks.add(brick);
       }
-  }
+    }
     this.ball = game.add.sprite(200, 300, 'ball');
     this.ball.body.velocity.x = 200;
     this.ball.body.velocity.y = 200;
@@ -45,9 +45,9 @@ var mainState = {
       game.state.start('main');
   },
   
-  hit: function(ball, brick) {
-    brick.kill();
-  },
+  //hit: function(ball, brick) {
+  //  brick.kill();
+  //},
   
 };
 
