@@ -11,6 +11,7 @@ var mainState = {
       game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
       game.scale.setMinMax(game.width/2, game.height/2, game.width, game.height);
     }
+    
     game.scale.pageAlignHorizontally = true;
     game.scale.pageAlignVertically = true;
     
